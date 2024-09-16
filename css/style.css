@@ -1,0 +1,84 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 0px 120px 0px;
+    margin-top: 0;
+}
+.header-colour{
+    background-color: #314b57;
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+}
+.title{
+    text-align: left;
+    margin-left: 0;
+}
+.flex-box{
+    display: flex;
+    flex-direction: row;
+}
+.image-container{
+    /* text-align: center;
+    padding-right: 10px; */
+    text-align: center;
+    margin: 0 10px;
+    width: 10.67%;
+}
+.image-container img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    /* height: 130px; */
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.map{
+    margin-left: 10px;
+    width: 57.33%;
+}
+
+.map img {
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+    max-width: none;
+}
+
+.flex-header-left{
+    display: flex;
+    align-items: stretch;
+    padding-left: 10px;
+    width: 100%;
+    max-width: 1200px;
+}
+.red{
+    color: #ab3c3c;
+}
+
+.content-left{
+    flex: 1;
+}
+.content-left img{
+    height: 270px;
+}
+.content-right{
+    flex: 2;
+    padding-left: 10px;
+}
+.content-img{
+    flex: 1;
+    padding: 10px;
+}
+.content-img img{
+    height: 170px;
+    width: 100%;
+}
+.Paragraph-Font{
+    font-family: 'Arial, Helvetica';
+}
